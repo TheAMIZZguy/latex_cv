@@ -7,7 +7,7 @@
 
 <img src="https://github.com/muratcankaracabey/latex_cv/blob/master/images/example_cv.png" width="425"/> <img src="https://github.com/muratcankaracabey/latex_cv/blob/master/images/coverletter.png" width="425"/> 
 
-<img src="https://github.com/TheAMIZZguy/latex_cv/blob/master/images/CV_Sample_Me.pdf" width="425"/> <img src="https://github.com/TheAMIZZguy/latex_cv/blob/master/images/CovLet_Sample_Me.pdf" width="425"/>
+<img src="https://github.com/TheAMIZZguy/latex_cv/blob/master/images/CV_Sample_Me.png" width="425"/> <img src="https://github.com/TheAMIZZguy/latex_cv/blob/master/images/CovLet_Sample_Me.png" width="425"/>
 
 ### How to use it?
 - The strength lies with the ```\createexperienceblock``` and ```\showexperienceblock``` commands to add elements to your CV. You can use the original commands with commands like ```\datedexperience``` as seen in the original file. 
