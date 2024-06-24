@@ -1,0 +1,49 @@
+\documentclass{res_format}
+\input{experience}
+\input{personal_information}
+
+% Uncomment if you want to include invisible line information. Information for this is in #res_format not in the other files since this is very optional
+\includeinvisiblelines
+
+
+\begin{document}
+
+\headerview
+\vspace{1ex}
+
+% Experience
+\section{Work Experience}
+    \showexperienceblock{DSI}{1,2,4,3}
+    \showexperienceblock{TA}{1,2}
+    \showexperienceblock{Citi}{1,2}
+    \showexperienceblock{Tec}{1,2,3}
+    \showexperienceblock{Exertus}{1,2,3}
+
+% Projects 
+\section{Projects and Competitions}
+    \showexperienceblock{MCTS}{1,2}
+    \showexperienceblock{Terminal}{1}
+    \showexperienceblock{UAS}{1,2}
+    \showexperienceblock{CPSCSWE}{1,2}
+    \showexperienceblock{DSCIThree}{1,2}
+    
+%Education
+\section{Education} 
+    \showexperienceblock{Bsc}{1,2,3}
+    
+% Skills
+\section{Skills}
+    \createskills{
+        \skillplanguages,
+        \skillsoftwaredev,
+        \skillframeworks,
+        \skillcertificates
+    }
+    
+
+% If you want to force the document to always be one page (by truncating the rest) uncomment both of these lines
+% I have no idea why I need the \explanation line
+% \explanation{}
+% \let\clearpage\relax
+\end{document}
+%

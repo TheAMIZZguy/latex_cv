@@ -1,0 +1,220 @@
+% \documentclass{res_format}
+
+%%%%%% THE NEXT BLOCKS USE THIS FORMAT
+%%%
+% \createexperienceblock{ExperienceName}{{
+%     \datedexperience{Core Information}{Secondary Information}{Date}}}
+%     {
+%     {{\experience{Bulletpoint Information 1}[tab arg1][bullet arg2]}},
+%     ...,
+%     {{\experience{Bulletpoint Information 1}[tab arg1][bullet arg2]}}
+% }
+
+% \createexperienceblock{}{{
+%     \datedexperience{}{}{}}}
+%     {
+%     {{\experience{}[][]}},
+%     ...,
+%     {{\experience{}[][]}}
+% }
+
+%%
+% ExperienceName : is NOT displayed, should contain only alphabetical characters (no space)
+% Core Information : Boldface information to the left
+% Secondary Information : Italics information just after the core info
+% Date : date information in color right-justified
+% Bulletpoint Information : One bulletpoint of information just underneath, there can be several
+%   tab arg : if ANYTHING (even space) is here, then will indent this bulletpoint
+%   bullet arg : if ANYTHING (even space) is here, then will remove the bulletpoint dot
+
+%%%
+% \showexperienceblock{ExperienceName}{VisibilityList}
+
+%%
+% ExperienceName : this chooses which experienceblock to show
+% VisibilityList : comma separated list of which bullet points to show (1-index)
+
+
+%%%%%%%%%%%%%%%% Work Experience %%%%%%%%%%%%%%%
+
+\createexperienceblock{DSI}{{
+    \datedexperience{Junior Data Scientist}{UBC Data Science Institute}{Fall 2023 --- Present}}}
+    {
+    {{\explanation{Created a segmentation model for varied clinical reports, improving data processing accuracy  by 40\%}[][]}},
+    {{\explanation{Implemented cross-validation and ensemble methods for use in cancer prediction in Canadian hospitals}[][]}},
+    {{\explanation{Co-authored several NLP research papers using BERT for relapse predictability, reducing workload by 90\%}[][]}},
+    {{\explanation{Formulated visualizations and presentations, enhancing stakeholder understanding and meeting length}[][]}},
+    {{\explanation{Design, develop, implement, and evaluate machine learning methods, for the analysis of text data}[][]}}
+}
+
+\createexperienceblock{TA}{{
+    \datedexperience{Teaching Assistant and Tutor}{University of British Columbia}{Summer 2023 --- Present}}}
+    {
+    {{\explanation{Provided tutoring and teaching for upper level courses in \emph{Algorithm Design}, leading to improved grades}[][]}},
+    {{\explanation{Received exemplary reviews from students and professors for teaching pedagogy and grading comment quality}[][]}}
+}
+
+\createexperienceblock{Citi}{{
+    \datedexperience{Technology Transformation Analyst}{Citigroup}{Summer 2023}}}
+    {
+    {{\explanation{Validated data uploads to Ruby Applications and documented results, ensuring smooth program operation}[][]}},
+    {{\explanation{Completed program Consent Orders from interdisciplinary teams, presenting results to stakeholders}[][]}},
+    {{\explanation{Performed Regulatory Validations of Actions in Response to Consent Orders}[][]}}
+}
+
+\createexperienceblock{Tec}{{
+    \datedexperience{Visiting Research Fellow}{Technological Institute of Monterrey}{Summer 2022}}}
+    {
+    {{\explanation{Researched a new application for search algorithms as hyper-heuristics on combinatorial optimization problems}[][]}},
+    {{\explanation{Modified the A* and MCTS algorithms as hyper-heuristics in a graph space to solve the firefighter Problem}[t][]}},
+    {{\explanation{Achieved ICUR Conference acceptance and presented methodology at a graduate level AI course}[][]}}
+}
+
+\createexperienceblock{Exertus}{{
+    \datedexperience{Junior Software Developer}{Exertus Consulting Group}{Summer 2021}}}
+    {
+    {{\explanation{Developed a map overlay for visual performance tracking of shipments, enhancing real-time monitoring}[][]}},
+    {{\explanation{Boosted productivity by automating stakeholder notifications of shipments through a WhatsApp system}[][]}},
+    {{\explanation{Designed and implemented a Route Assignment Algorithm, reducing time driving without a shipment by 33\%}[][]}}
+}
+
+
+%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%
+
+\createexperienceblock{MCTS}{{
+    \datedexperience{Monte Carlo Tree Search and Minimax Hybrid AIs}{Python Research Project}{Spring 2019 --- Spring 2020}}}
+    {
+    {{\explanation{Created a hybrid \emph{MCTS} and \emph{Minimax} with Alpha-Beta pruning algorithm, outperforming both in games}[][]}},
+    {{\explanation{Research results aligned with similar hybrid approaches and could be generalized for search spaces}[][]}}
+}
+
+% Developed a hybrid MCTS and Minimax algorithm with Alpha-Beta pruning, outperforming both individual algorithms
+
+\createexperienceblock{WER}{{
+    \datedexperience{WER Robotics Nationals}{Custom Language}{Winter 2019}}}
+    {
+    {{\explanation{Programmed the Robot to race towards tasks that it would then complete for points}[][]}},
+    {{\explanation{Including path finding, alignment of mechanical systems, tool usage, and avoiding crashes}[][]}}
+}
+% CPSC330
+\createexperienceblock{CPSCML}{{
+    \datedexperience{Bank Loan Qualification System}{Python}{Fall 2023}}}
+    {
+    {{\explanation{Created a Machine Learning system with \emph{Scikit-learn} to approve loans and analyze related factors}[][]}},
+    {{\explanation{Developed decision rational for end user understanding and ensured no discriminatory bias}[][]}}
+}
+% STAT201
+\createexperienceblock{DSCITwo}{{
+    \datedexperience{Basketball Betting System}{R Programming Language}{Winter 2022}}}
+    {
+    {{\explanation{Created a Machine Learning system to predict optimal betting for NBA matches}[][]}},
+    {{\explanation{Used time series and historical fan favoritism to find the optimal betting strategy}[][]}}
+}
+% STAT301
+\createexperienceblock{DSCIThree}{{
+    \datedexperience{Stock Price Trend Analysis}{R Programming Language}{Fall 2022}}}
+    {
+    % {{\explanation{Analyzed historic trends and correlation between supplier stock and inventory to future producer stock changes}[][]}},
+    % {{\explanation{Discussed time series, regressions, and industry statements to conclude the correlations}[][]}}
+    {{\explanation{Modelled correlations between silicon supplier stock prices and inventory to future tech producer stock prices}[][]}},
+    {{\explanation{Utilized regression models, large feature selection, and discussed time series use to match industry results}[][]}}
+} % note to self, could use expert systems with this as an expert, with some actual stock prediction models too as another expert, to detect better trends
+
+% DSCI310
+\createexperienceblock{DSCIFour}{{
+    \datedexperience{Data Analysis of School Performance Predictors}{Python}{Winter 2022}}}
+    {
+    {{\explanation{Applied automated workflows and Dockerfile practices in GitHub to create an integrated Jupyter analysis}[][]}},
+    {{\explanation{Engaged Data Science techniques to delimit the importance of factors influencing school performance}[][]}}
+}
+
+\createexperienceblock{FIRST}{{
+    \datedexperience{FIRST Robotics Competition}{Java}{2018-2020}}}
+    {
+    {{\explanation{Designed and implemented a visual detection and guidance system for autonomous playing}[][]}},
+    {{\explanation{Made a controller scheme for manual controlling of the robot, including scoring mechanism}[][]}}
+}
+
+\createexperienceblock{FlyBot}{{
+    \datedexperience{Drone from Scratch}{Arduino}{Sept 2018}}}
+    {
+    {{\explanation{Programmed a Bluetooth Control Scheme alongside flight correction for a tricopter in a 24h hackathon}[][]}}
+}
+
+\createexperienceblock{UAS}{{
+    \datedexperience{Machine Learning for Drone Team}{Python}{Fall 2021}}}
+    {
+    {{\explanation{Built an OCR system to identify letters from 100ft away while noting locations on map for competition points}[][]}},
+    {{\explanation{Maintained autonomous drone movement and guidance system in exploration stages for target identification}[][]}}
+}
+% CPSC210
+\createexperienceblock{CPSCOne}{{
+    \datedexperience{Class Scheduler}{Java}{Fall 2021}}}
+    {
+    {{\explanation{Automated creation of all possible schedules, with full code coverage and testing}[][]}},
+    {{\explanation{Applied OOP principles for searching and filtering of desired features}[][]}}
+}
+% CPSC310
+\createexperienceblock{CPSCSWE}{{
+    \datedexperience{Discord Bot with API and File Backend}{JavaScript and Python}{Winter 2023}}}
+    {
+    {{\explanation{Implemented asynchronous code techniques to RESTfully import and modify file data from multiple users at once}[][]}},
+    {{\explanation{Enabled an interactable Discord front-end with detailed bot communication, creating a better user experience}[][]}}
+}
+
+%%%%%%%%%%%%%%%% Awards and Competitions %%%%%%%%%%%%%%%
+\createexperienceblock{Terminal}{{
+    \datedexperience{Correlation One Terminal Competition (With Citadel)}{Python}{2022 (2x) and 2023 (2x)}}}
+    {
+    {{\explanation{Placed in Top-5 ELO for AI algorithm competition between top universities with \$15k in prizes}[][]}}
+}
+
+\createexperienceblock{Putnam}{{
+    \datedexperience{Putnam Exam Competition}{Score: 7}{Dec 2022}}}
+    {
+    {{\explanation{Placed in the top third out of all 3415 competitors in the most prestigious undergrad math competition}[][]}}
+}
+
+%%%%%%%%%%%%%%%% EDUCATION %%%%%%%%%%%%%%%
+\createexperienceblock{Bsc}{{
+    \datedexperience{BSc in Honours Computer Science and Mathematics}{BSc Minor in Data Science}{Expected May 2025}}}
+    {% GPA 3.82/4.00 OR  3.94/4.33 if truncate past 90
+    {{\explanation{University of British Columbia --- 3.98/4.33 cGPA}[][]}},
+    {{\explanation{VP Internal of the UBC Quantum Computing Club\cpshalf Member of Software Team in Unmanned Aerial Systems Club}[][]}},
+    {{\explanation{\emph{Courses}: Adv. Algorithm Design\cpshalf Artificial Intelligence\cpshalf TCS\cpshalf Visualization\cpshalf NLP\cpshalf Graph Theory\cpshalf Real Analysis}[][]}}
+}
+
+
+%%%%%%%%%%%%%%%% SKILLS %%%%%%%%%%%%%%%
+
+\newcommand\skillplanguages{
+    \createskill{Programming Languages}{
+        \textbf{\emph{Experienced:}} \ \ Python\cpshalf Java\cpshalf C\#\cpshalf R \ \ \textbf{\emph{Familiar:}} \ \ Arduino\cpshalf C/C++\cpshalf JavaScript\cpshalf Julia
+    }  % and MATLAB lol
+}
+\newcommand\skillsoftwaredev{
+    \createskill{Software Development}{
+        Version Control\cpshalf Agile\cpshalf PowerBI\cpshalf Docker\cpshalf Excel and Sheets Automation\cpshalf Git
+    }
+}
+\newcommand\skillframeworks{
+    \createskill{Frameworks \ \& \ Libraries}{
+        Jupyter\cpshalf Scikit-learn\cpshalf Numpy\cpshalf Pandas\cpshalf Transformers\cpshalf DotNET\cpshalf Qiskit\cpshalf OCR\cpshalf \LaTeXe
+    }
+}
+\newcommand\skillcertificates{
+    \createskill{Course Certificates}{
+        Machine Learning\cpshalf Data Science\cpshalf Deep Learning\cpshalf Quantum Computing\cpshalf Algorithms
+    }
+}
+\newcommand\skilllanguages{
+    \createskill{Languages}{
+        \textbf{\emph{Native:}} \ \  English\cpshalf Spanish \ \ \textbf{\emph{Beginner:}} \ \  French 
+    }
+}
+\newcommand\skillinterests{
+    \createskill{Interests}{
+        Machine Learning\cpshalf Data Science\cpshalf Quantum Computing\cpshalf Research\cpshalf Mathematics
+    }
+}
+    

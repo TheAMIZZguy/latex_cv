@@ -1,0 +1,114 @@
+\documentclass{muratcan_cv}
+
+
+\setname{Andres}{Zepeda Perez}
+\setdescription{3rd Year Honours Computer Science and Mathematics}
+\setaddress{Vancouver, Canada}
+\setmobile{+1 (778) 874 1357}
+\setmailp{AndresZepeda137@gmail.com}
+\setmails{AndresZP@students.cs.ubc.ca}
+\setposition{CS Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/andres-zepeda-99a349174}
+\setgithubaccount{https://github.com/TheAMIZZguy} 
+\setthemecolor{red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+% \addblocktext{Summary}{%
+% \lipsum[1][1-12]\ %replace this part with actual text
+% }
+%
+% Experience
+\section{Industry Experience}
+    %
+    \datedexperience{Exertus Consulting Group}{Software Developer Intern}{2021-Summer} 
+    % \explanation{\coloredbullet\ \textbf{Leaflet} to implement a map overlay, for tracking shipping trucks along with \textbf{OpenRouteService}} \explanation{~~~~~ to calculate routes, distances, and times for shipments} 
+    \explanation{\coloredbullet\ \textbf{Leaflet}  and \textbf{OpenRouteService} to implement a map overlay, tracking shipments with their ETA's,} \explanation{~~~~~ leading to improved understanding of how the business was doing at a glance} 
+    \explanation{\coloredbullet\ \textbf{Messagebird} to send automated Whatsapp Notifications to assign shipments to drivers and alert} \explanation{~~~~~ managers in emergency situations, increasing productivity and response time} 
+    \explanation{\coloredbullet\ \textbf{WIA} to implement a PDF Scanner to instantly upload documents to the website, largely reducing} \explanation{~~~~~~steps and time taken to verify documentation} 
+    \explanation{\coloredbullet\ Route Optimization by chaining routes to minimize time spent driving without a shipment} 
+ 
+%
+% Experience
+\section{Research Experience}
+    %
+    \datedexperience{A* and MCTS as Hyper-Heuristics on the Firefighter Problem}{Visiting Research Fellow}{2022-Summer} 
+    \explanation{\coloredbullet\ Explored a new method of analysing \textbf{Combinatorial Optimization Problems} using Hyper-Heuristics} 
+    \explanation{\coloredbullet\ Acceptance into ICUR Conference and awaiting other journal and conference acceptances} 
+    %
+    \datedexperience{Monte Carlo Tree Search and Minimax Hybrid AIs}{High School Thesis}{2019-2020} 
+    \explanation{\coloredbullet\ Used a mix of \textbf{Monte Carlo Tree Search} and \textbf{Minimax} with Alpha-Beta pruning to demonstrate if}
+    \explanation{~~~~~a certain kind of hybrid would outperform either algorithm on their own} 
+    \explanation{\coloredbullet\ Results aligned with similar hybrid approaches of the algorithms} 
+  
+%
+% Experience
+\section{Projects and Competitions}
+    %
+    \datedexperience{Correlation One Terminal Competition (Twice)}{Python}{2022-Spring and Summer} 
+    \explanation{\coloredbullet\ Competitive turn based AI and algorithm competition between top universities for \$15k in prizes} 
+    %
+    \datedexperience{Qualified to WER Robotics Nationals}{Custom Language}{2019-Winter} 
+    \explanation{\coloredbullet\ Programmed the Robot to race towards tasks that it would then complete for points, teams of 3} 
+    %
+    \datedexperience{FIRST Robotics}{Java}{2018-2020} 
+    \explanation{\coloredbullet\ Designed and Implemented a \textbf{visual guidance system} for automated ball tracking, retrieval, and}
+    \explanation{~~~~~ scoring; giving the team a scoring advantage.} 
+    %
+    \datedexperience{Drone from Scratch}{Arduino}{2018-Sept} 
+    \explanation{\coloredbullet\ Programmed \textbf{Bluetooth Control Scheme} for a tricopter in a 24h hackathon} 
+    %
+    \datedexperience{Machine Learning for Drone Team}{Python}{2021-Fall} 
+    \explanation{\coloredbullet\ Built a Optical Character Recognition System to identify objects at a distance for competition points} 
+    %
+    \datedexperience{Class Scheduler}{Java}{2021-Fall} 
+    \explanation{\coloredbullet\ Automated system organizing possible schedules, with a filtering system, to reduce event planning time} 
+    %
+    % \datedexperience{Battlesnake}{Python}{Current} 
+    % \explanation{\coloredbullet\ Game AI program to play Snake against other players concurrently, \textbf{Neural Networks}}
+    %
+    \datedexperience{Inventory Management System}{Java}{2018-2020} 
+    \explanation{\coloredbullet\ Created a local password-protected system to improve item tracking and grouping} 
+    %
+%
+%Education
+\section{Education} 
+    \datedexperience{University of British Columbia}{3.91}{2020-Current} 
+    % \explanation{BSc in Honours Computer Science and Mathematics} 
+    % \explanation{BSc Minor in Data Science} 
+    \explanation{BSc in Honours Computer Science and Mathematics. With minor in Data Science} 
+    %
+    % \datedexperience{UBC Quantum Club}{VP Internal}{2022-Current} 
+    \explanation{VP Internal of the UBC Quantum Computing Club}
+    
+%
+% Skills
+\section{Skills}
+    %
+    \newcommand{\skillone}{\createskill{Programming Languages}{\textbf{\emph{Experienced:}} \ \  Python \cpshalf Java \cpshalf C\# \cpshalf R \ \ \textbf{\emph{Familiar:}} \ \  Arduino \cpshalf C/C++ \cpshalf Javascript \cpshalf Julia}} % and MATLAB lol
+    %
+    \newcommand{\skilltwo}{\createskill{Software Development}{Version Control \cpshalf Agile \cpshalf PowerBI \cpshalf Visual Studio \cpshalf Excel and Sheets Automation}}
+    %
+    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{Jupyter \cpshalf Scikit-learn\cpshalf Leaflet \cpshalf Numpy \cpshalf Pandas \cpshalf DotNET \cpshalf Qiskit \cpshalf OpenRouteService}}
+    %
+    \newcommand{\skillfour}{\createskill{External Courses}{A-Z Machine Learning/Data Science \cpshalf C\# and Unity Masterclass \cpshalf Quantum Computing}}
+    %
+    % \newcommand{\skillfive}{\createskill{Languages}{\textbf{\emph{Native:}} \ \  English \cpshalf Spanish \ \ \textbf{\emph{Beginner:}} \ \  French }}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour}%, \skillfive}
+
+% Removing this breaks everything sometimes, uncomment if something breaks
+    \explanation{}
+%
+%Footnote
+%\createfootnote
+\let\clearpage\relax
+\end{document}
+%
